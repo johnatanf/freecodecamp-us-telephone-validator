@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #3b3b4f;
+}
+
+.screen-heading {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-size: 2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.app-heading {
+    font-size: 3rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+#phone-camera {
+    background: lightgrey;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#phone-container {
+    width: 280px;
+    height: 460px;
+    background: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+#phone-screen {
+    background: lightgrey;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#user-input {
+    font-size: 2rem;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#results-div {
+    text-align: center;
+    font-size: 2rem;
+}

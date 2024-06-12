@@ -7,10 +7,22 @@
     <title>US Telephone Number Validator</title>
 </head>
 <body>
-    <input id="user-input" type="text">
-    <button id="check-btn">Check</button>
-    <button id="clear-btn">Clear</button>
-    <div id="results-div"></div>
+    <div id="app-container">
+        <h1 class="app-heading">US Telephone Number Validator</h1>
+        <div id="phone-container">
+            <div id="phone-camera"></div>
+            <div id="phone-screen">
+                <p class="screen-heading">Enter a phone number:</p>
+                <input id="user-input" type="text">
+                <div id="results-div"></div>
+            </div>
+            <div class="btn-container">
+                <button id="check-btn" class="btn">Check</button>
+                <button id="clear-btn" class="btn">Clear</button>
+            </div>
+        </div>
+    </div>
+
     <script src="./script.js"></script>
 </body>
 </html>
