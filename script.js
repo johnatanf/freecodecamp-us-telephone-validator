@@ -18,7 +18,7 @@ function clearInput() {
 }
 
 function validateUSNumber(str) {
-    return true
+    return /^(1\s?)?(\d{3}|\(\d{3}\))[- ]?(\d{3})[- ]?(\d{4})$/.test(str)
 }
 
 function clickCheckButton() {
